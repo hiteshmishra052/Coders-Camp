@@ -5,6 +5,33 @@ const home =  () => {
   return (
     <div>
       <div className="home">Home</div>
+      <div className="home">Home</div>
+      <div className="home">Home</div>
+      <div className="home">Home</div>
+      <div className="home">Home</div>
+      <div className="home">Home</div>
+      <div className="home">Home</div>
+      <div className="home">Home</div>
+      <div className="home">Home</div>
+      <div className="home">Home</div>
+      <div className="home">Home</div>
+      <div className="home">Home</div>
+      <div className="home">Home</div>
+      <div className="home">Home</div>
+      <div className="home">Home</div>
+      <div className="home">Home</div>
+      <div className="home">Home</div>
+      <div className="home">Home</div>
+      <div className="home">Home</div>
+      <div className="home">Home</div>
+      <div className="home">Home</div>
+      <div className="home">Home</div>
+      <div className="home">Home</div>
+      <div className="home">Home</div>
+      <div className="home">Home</div>
+      <div className="home">Home</div>
+      <div className="home">Home</div>
+      <div className="home">Home</div>
     </div>
   )
 }
