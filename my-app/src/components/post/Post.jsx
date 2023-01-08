@@ -8,8 +8,11 @@ import MoreHorizIcon from "@mui/icons-material/MoreHoriz";
 import { Link } from "react-router-dom";
 // import Comments from "../comments/Comments";
 import { useState } from "react";
+import Comments from "../comments/Comments";
 
 const Post = ({ post }) => {
+
+const [commentOpen , setCommentOpen] = useState(false);
 
     //Temporary
     const liked  = true;
@@ -40,14 +43,16 @@ const Post = ({ post }) => {
                 {liked ?<FavoriteOutlinedIcon/>: <FavoriteBorderOutlinedIcon/>}
                 12 Likes
             </div>
-            <div className="item">
+            <div className="item" onClick={()=>{setCommentOpen(!commentOpen)}}>
                 <TextsmsOutlinedIcon/>
                 22 Comments
             </div>
             <div className="item">
                 <ShareOutlinedIcon/>
+                Share
             </div>
         </div>
+        {commentOpen && <Comments/>}
       </div>
     </div>
   );
