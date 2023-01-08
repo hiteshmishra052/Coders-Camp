@@ -1,38 +1,14 @@
 import React from 'react';
+import Stories from '../../components/stories/Stories';
+import Posts from '../../components/posts/Posts';
 import "./home.scss"
 
 const home =  () => {
   return (
-    <div>
-      <div className="home">Home</div>
-      <div className="home">Home</div>
-      <div className="home">Home</div>
-      <div className="home">Home</div>
-      <div className="home">Home</div>
-      <div className="home">Home</div>
-      <div className="home">Home</div>
-      <div className="home">Home</div>
-      <div className="home">Home</div>
-      <div className="home">Home</div>
-      <div className="home">Home</div>
-      <div className="home">Home</div>
-      <div className="home">Home</div>
-      <div className="home">Home</div>
-      <div className="home">Home</div>
-      <div className="home">Home</div>
-      <div className="home">Home</div>
-      <div className="home">Home</div>
-      <div className="home">Home</div>
-      <div className="home">Home</div>
-      <div className="home">Home</div>
-      <div className="home">Home</div>
-      <div className="home">Home</div>
-      <div className="home">Home</div>
-      <div className="home">Home</div>
-      <div className="home">Home</div>
-      <div className="home">Home</div>
-      <div className="home">Home</div>
-    </div>
+      <div className="home">
+        <Stories/>
+        <Posts/> 
+      </div>
   )
 }
 
