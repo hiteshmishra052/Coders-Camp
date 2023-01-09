@@ -9,7 +9,7 @@ import Navbar from "./components/navbar/Navbar"
 import LeftBar from "./components/leftBar/LeftBar";
 import RightBar from "./components/rightBar/RightBar";
 import Home from "./pages/home/home";
-import Profile from "./pages/profile/profile";
+import Profile from "./pages/profile/Profile";
 import { Navigate } from "react-router-dom";
 import "./style.scss";
 import { useContext } from "react";

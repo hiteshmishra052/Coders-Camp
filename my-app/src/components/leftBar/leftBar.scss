@@ -1,4 +1,5 @@
 @import "../../style.scss";
+
 .leftBar {
   @include themify($themes) {
     flex: 2;
@@ -9,17 +10,24 @@
     background-color: themed("bg");
     color: themed("textColor");
 
+    @include mobile{
+      display: none;
+    }
+
     &::-webkit-scrollbar {
       display: none;
     }
+
     .container {
       padding: 20px;
+
       hr {
         margin: 20px 0px;
         border: none;
         height: 0.5px;
         background-color: themed("border");
       }
+
       .menu {
         display: flex;
         flex-direction: column;
@@ -33,12 +41,14 @@
           display: flex;
           align-items: center;
           gap: 10px;
+
           img {
             width: 30px;
             height: 30px;
             border-radius: 50%;
             object-fit: cover;
           }
+
           span {
             font-size: 14px;
           }
@@ -48,9 +58,11 @@
           display: flex;
           align-items: center;
           gap: 10px;
+
           img {
             width: 30px;
           }
+
           span {
             font-size: 14px;
           }
