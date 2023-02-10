@@ -40,7 +40,7 @@ const [commentOpen , setCommentOpen] = useState(false);
         </div>
         <div className="info">
             <div className="item">
-                {liked ?<FavoriteOutlinedIcon/>: <FavoriteBorderOutlinedIcon/>}
+                {liked ?<FavoriteOutlinedIcon style={{color: "red"}}/>: <FavoriteBorderOutlinedIcon/>}
                 12 Likes
             </div>
             <div className="item" onClick={()=>{setCommentOpen(!commentOpen)}}>
